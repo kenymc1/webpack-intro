@@ -1,4 +1,9 @@
 import '../styles/main.scss';
+import form from './components/form';
 import 'bootstrap';
 
-console.error('hi');
+const init = () => {
+  form.displayForm();
+};
+
+init();
